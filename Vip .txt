@@ -1,1 +1,25 @@
-vmess://eyJhZGQiOiIwLjAuMC4wIiwiYWlkIjoiMCIsImFscG4iOiIiLCJob3N0IjoiIiwiaWQiOiJlbmQiLCJuZXQiOiJ3cyIsInBhdGgiOiIvdm1lc3MiLCJwb3J0IjoiNDMzIiwicHMiOiLinYwg2b7Yp9uM2KfZhiDYp9i02KrYsdin2qkg4p2MIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: :9090
+proxies:
+  - {name: 亚洲(油管:破解资源君), server: 45.64.22.22, port: 443, type: vmess, uuid: e55ed7b2-ed4f-480c-8b99-08482da1e4c7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /OB7jTM5cTTrL, ws-headers: {Host: hkbn.pgypgykmoljklj.xyz}, udp: true}
+  - {name: 新加坡(油管:破解资源君), server: r001.baipiaoxd.com, port: 19198, type: ss, cipher: aes-256-gcm, password: gKXJa5qK6l, udp: true}
+  - {name: 新加坡(油管:破解资源君) 2, server: r001.baipiaoxd.com, port: 11451, type: vmess, uuid: d57d3206-d398-449e-b637-19471a3943e4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: r001.baipiaoxd.com}, udp: true}
+  - {name: 新加坡(油管:破解资源君) 3, server: 172.67.199.34, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Falling42gcssgnode, ws-headers: {Host: gcssg.sylu.cyou}, udp: true}
+  - {name: 新加坡(油管:破解资源君) 4, server: 178.128.86.198, port: 80, type: vmess, uuid: ed71c245-88af-484e-970c-29ac50637847, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 178.128.86.198}, udp: true}
+  - {name: 香港(油管:破解资源君), server: gcsshkkk.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Falling42gcsshkkknode, ws-headers: {Host: gcsshkkk.sylu.cyou}, udp: true}
+  - {name: 台湾(油管:破解资源君), server: tw99-hinet.mynodes001.one, port: 554, type: vmess, uuid: c7d2d996-7159-3b34-8730-0bd396bfba7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 台湾(油管:破解资源君) 2, server: tw99-hinet.mynodes001.one, port: 554, type: vmess, uuid: c7d2d996-7159-3b34-8730-0bd396bfba7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 日本(油管:破解资源君), server: jp-direct.node002.xyz, port: 554, type: vmess, uuid: 45b31da4-8aac-3d51-951b-b984ce15c7f9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 日本(油管:破解资源君) 2, server: ap-northeast-1.openssl3.com, port: 443, type: trojan, password: tune7jerky7HAYRICK, sni: ap-northeast-1.openssl3.com, skip-cert-verify: true, udp: true}
+  - {name: 日本(油管:破解资源君) 3, server: jp03-vm0.entry.srthdw.art, port: 447, type: vmess, uuid: cf844c94-40cd-3774-8cd3-f1f75580a4bb, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: youtube-aweikeji}, udp: true}
+  - {name: 日本(油管:破解资源君) 4, server: jp02-vm0.entry.srthdw.art, port: 448, type: vmess, uuid: 70a0e5e1-8a14-30aa-8476-8a4081cd8f67, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: jp02-vm0.entry.srthdw.art}, udp: true}
+  - {name: 日本(油管:破解资源君) 5, server: jp03-vm0.entry.srthdw.art, port: 446, type: vmess, uuid: b2a2c706-12e0-3335-8a62-31925219a712, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: jp03-vm0.entry.srthdw.art}, udp: true}
+  - {name: 日本(油管:破解资源君) 6, server: jp03-vm0.entry.srthdw.art, port: 447, type: vmess, uuid: 938faa46-da30-31dd-8bcf-1ef93c2bd79f, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: jp03-vm0.entry.srthdw.art}, udp: true}
+  - {name: 日本(油管:破解资源君) 7, server: jp-direct.node002.xyz, port: 554, type: vmess, uuid: 45b31da4-8aac-3d51-951b-b984ce15c7f9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 日本(油管:破解资源君) 8, server: 43.206.228.93, port: 80, type: vmess, uuid: ed71c245-88af-484e-970c-29ac50637847, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 43.206.228.93}, udp: true}
+  - {name: 日本(油管:破解资源君) 9, server: jp-direct.node002.xyz, port: 554, type: vmess, uuid: 45b31da4-8aac-3d51-951b-b984ce15c7f9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 日本(油管:破解资源君) 10, server: jp1.sanfen001.pics, port: 443, type: vmess, uuid: fe0c02e5-89e7-4a46-8f8d-172947ea70bb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /zh-cn, ws-headers: {Host: jp1.sanfen001.pics}, udp: true}
